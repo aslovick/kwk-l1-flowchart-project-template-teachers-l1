@@ -1,3 +1,3 @@
-class Quiz
+def quiz()
 
 end
