@@ -5,6 +5,6 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
   
-  #this file should contain my get routes (what I learned Tuesday with Sinatra!)
+
 
 end
