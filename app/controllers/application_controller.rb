@@ -16,9 +16,9 @@ class ApplicationController < Sinatra::Base
     erb :question
   end
   
-  # get '/about' do
-  #   erb :about
-  # end
+  get '/about' do
+    erb :about
+  end
   
   post '/answer' do
     username=params[:name]
